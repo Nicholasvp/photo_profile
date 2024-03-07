@@ -27,8 +27,7 @@ class PreviewPage extends StatelessWidget {
             left: 120,
             child: IconButton(
               onPressed: () {
-                controller.store.image = file;
-                Get.to(const HomePage());
+                controller.changePhoto(file);
               },
               icon: const Icon(
                 Icons.check_circle,
