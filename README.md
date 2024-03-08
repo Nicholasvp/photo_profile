@@ -2,15 +2,19 @@
 
 A new Flutter project.
 
-## Getting Started
+## Resume
 
-This project is a starting point for a Flutter application.
+This project consists of a profile screen, where the user is able to change their name, their email, and their profile photo.
+For the profile photo he has two options
+- Camera
+- Gallery
 
-A few resources to get you started if this is your first Flutter project:
+If he chooses camera, another page opens for the user to take a photo, and as soon as the image is captured, a preview appears for him, if the photo is good he confirms, and the photo is changed.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+If he chooses gallery, he can choose an image from his own phone.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screen
+<div style="display: flex; gap: 10px">
+<img src="./assets/screen_photo_profile.png">
+<img src="./assets/screen_photo_profile_2.png">
+</div>
